@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ef8d7ffd-a7e3-4b86-bd92-239630d9cd74",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 193,
+  "height": 72,
+  "platformSettings": {},
+  "subMetas": {
+    "cuphead_duck_shoot_boil_0001": {
+      "ver": "1.0.4",
+      "uuid": "3252205c-7cf6-4726-8b99-7cd54385b58d",
+      "rawTextureUuid": "ef8d7ffd-a7e3-4b86-bd92-239630d9cd74",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 193,
+      "height": 72,
+      "rawWidth": 193,
+      "rawHeight": 72,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

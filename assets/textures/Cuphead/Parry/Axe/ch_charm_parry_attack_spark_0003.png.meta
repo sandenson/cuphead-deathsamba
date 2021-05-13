@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "6634c182-b011-4110-9f5f-48499f13a7ac",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 222,
+  "platformSettings": {},
+  "subMetas": {
+    "ch_charm_parry_attack_spark_0003": {
+      "ver": "1.0.4",
+      "uuid": "bbc623f0-3326-4775-9f89-075292451fea",
+      "rawTextureUuid": "6634c182-b011-4110-9f5f-48499f13a7ac",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 201,
+      "height": 222,
+      "rawWidth": 201,
+      "rawHeight": 222,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

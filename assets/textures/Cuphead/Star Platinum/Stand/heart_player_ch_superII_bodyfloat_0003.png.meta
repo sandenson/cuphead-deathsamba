@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "71b8b6b4-a3cf-4963-8534-b193e15ca1f9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 60,
+  "height": 42,
+  "platformSettings": {},
+  "subMetas": {
+    "heart_player_ch_superII_bodyfloat_0003": {
+      "ver": "1.0.4",
+      "uuid": "e1184aa5-94ad-4bea-9339-39d702b7e022",
+      "rawTextureUuid": "71b8b6b4-a3cf-4963-8534-b193e15ca1f9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 42,
+      "rawWidth": 60,
+      "rawHeight": 42,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

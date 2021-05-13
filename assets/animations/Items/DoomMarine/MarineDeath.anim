@@ -1,0 +1,60 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MarineDeath",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.16666666666666666,
+  "sample": 30,
+  "speed": 0.1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "f00a6771-f36f-4302-9921-164bc1d5bad2"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "7436ff13-0615-47d0-8ae7-8e59f750f79b"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "ce7d8dd8-fbb2-49c9-878f-477b2a2c035d"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "c0aef7fa-1e30-4b23-9ddb-6424ea797de5"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "757b0ad5-4c0f-4b20-8a4d-b3a7ccf2114e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "onDeathStart",
+      "params": []
+    },
+    {
+      "frame": 0.13333333333333333,
+      "func": "onAnimationEnd",
+      "params": []
+    }
+  ]
+}

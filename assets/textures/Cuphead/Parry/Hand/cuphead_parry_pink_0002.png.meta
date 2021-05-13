@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "69f4a03d-815b-4bff-bd14-a226dfdd8247",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 130,
+  "platformSettings": {},
+  "subMetas": {
+    "cuphead_parry_pink_0002": {
+      "ver": "1.0.4",
+      "uuid": "7e68a0e7-5fb7-4079-b74d-729ee289f237",
+      "rawTextureUuid": "69f4a03d-815b-4bff-bd14-a226dfdd8247",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 95,
+      "height": 130,
+      "rawWidth": 95,
+      "rawHeight": 130,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

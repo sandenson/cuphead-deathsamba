@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "902e5adb-5cc2-488d-b3f8-0a102b9c318c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 472,
+  "height": 345,
+  "platformSettings": {},
+  "subMetas": {
+    "player_ch_superII_ghost_intro_0028": {
+      "ver": "1.0.4",
+      "uuid": "9d2bbcb5-5c4a-43bb-862c-4cf1a0441902",
+      "rawTextureUuid": "902e5adb-5cc2-488d-b3f8-0a102b9c318c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 472,
+      "height": 345,
+      "rawWidth": 472,
+      "rawHeight": 345,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

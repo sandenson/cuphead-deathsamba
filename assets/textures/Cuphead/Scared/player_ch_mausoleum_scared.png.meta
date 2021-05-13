@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "b90cf56b-51ed-484c-93d5-a66b55427499",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 241,
+  "height": 199,
+  "platformSettings": {},
+  "subMetas": {
+    "player_ch_mausoleum_scared": {
+      "ver": "1.0.4",
+      "uuid": "612044c2-4dfe-49cd-9607-f9ba8d13783e",
+      "rawTextureUuid": "b90cf56b-51ed-484c-93d5-a66b55427499",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 241,
+      "height": 199,
+      "rawWidth": 241,
+      "rawHeight": 199,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
