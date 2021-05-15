@@ -10,11 +10,11 @@ import Actor from "../../Actor/Actor";
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class AIController<T extends Actor> extends cc.Component {
+export default abstract class AIController<T extends Actor> extends cc.Component {
 
-    actor: T = null;    
+    protected actor: T = null;    
 
-    // LIFE-CYCLE CALLBACKS:
+    public abstract start();
 
     // onLoad () {}
 

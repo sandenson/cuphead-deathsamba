@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import InGameKeyboardController from "../../Controller/Cuphead/InGameKeyboardController";
 import Actor from "../Actor";
 import DIRECTION, {DIRECTIONS} from "../DIRECTION";
 import { IWalkingActor } from "../IWalkingActor";
@@ -16,6 +17,8 @@ const {ccclass, property} = cc._decorator;
 export default class Cuphead extends Actor implements IWalkingActor {
 
     // onLoad () {}
+    @property(InGameKeyboardController)
+    public controller: InGameKeyboardController = null;
 
     @property(cc.Prefab)
     public jumpParticles: cc.Prefab = null;
@@ -43,9 +46,15 @@ export default class Cuphead extends Actor implements IWalkingActor {
             particles.y = this.node.y - 30;
             this.node.getParent().addChild(particles);
         }
+
+        if (other.tag == 1) {
+            this.controller.score = -200;
+        }
     }
 
     public jump() {
+        console.log("jump");
+
         if (!this.isJumping) {
             this.state = PLAYER_STATE.jumping;
             this.isJumping = true;
@@ -54,6 +63,7 @@ export default class Cuphead extends Actor implements IWalkingActor {
     }
 
     move(direction: DIRECTION) {
+        
         if (!this.isJumping) {
             this.movePlayer(direction);
             if (direction != this.facing) {
@@ -65,8 +75,9 @@ export default class Cuphead extends Actor implements IWalkingActor {
             }
         }
     }
-
+    
     private movePlayer(direction: DIRECTION) {
+        // console.log("move");
         if (Math.abs(this.rigidBody.linearVelocity.x) < this.maxSpeed && Math.abs(this.rigidBody.linearVelocity.y) < this.maxSpeed) {
             this.rigidBody.applyForceToCenter(cc.v2(direction.x * this.walkForce, direction.y * this.walkForce), true);
         }
