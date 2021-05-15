@@ -5,19 +5,19 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
-    
+export default class Main extends cc.Component {
+
     physicsManager: cc.PhysicsManager;
     collisionManager: cc.CollisionManager;
 
-    onLoad () {
+    onLoad() {
         this.physicsManager = cc.director.getPhysicsManager();
-        this.physicsManager.enabled =  true;
+        this.physicsManager.enabled = true;
         this.physicsManager.gravity = cc.v2(0, -2000);
-        
+
         this.collisionManager = cc.director.getCollisionManager();
         this.collisionManager.enabled = true;
     }
