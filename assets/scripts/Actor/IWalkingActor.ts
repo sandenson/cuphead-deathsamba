@@ -1,4 +1,4 @@
-import DIRECTION from "./DIRECTION";
+import DIRECTION from './DIRECTION';
 
 export interface IWalkingActor {
   move(direction: DIRECTION): void;

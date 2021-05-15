@@ -5,23 +5,23 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import Actor from "../Actor/Actor";
+import Actor from '../Actor/Actor';
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default abstract class StateMachine<T extends Actor> extends cc.Component {
+  protected actor: T = null;
 
-    protected actor: T = null;
+  // LIFE-CYCLE CALLBACKS:
 
-    // LIFE-CYCLE CALLBACKS:
+  onLoad() {
+    this.actor = <T>this.node.getComponent(Actor);
+  }
 
-    onLoad () {
-        this.actor = <T>this.node.getComponent(Actor);
-    }
-    
-    public abstract onAnimationEnd(animation: string);
-    public abstract onAnimationStart(animation: string);
+  public abstract onAnimationEnd(animation: string);
 
-    public abstract update (dt);
+  public abstract onAnimationStart(animation: string);
+
+  public abstract update(dt);
 }

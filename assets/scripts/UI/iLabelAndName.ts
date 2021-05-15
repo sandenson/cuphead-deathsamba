@@ -1,4 +1,4 @@
-export default interface iLabelAndName{
-  name: string,
-  label: cc.Label
+export default interface iLabelAndName {
+  name: string;
+  label: cc.Label;
 }
